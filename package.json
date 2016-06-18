@@ -1,6 +1,6 @@
 {
   "name": "@andreasgalster/fsn-boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fsn-boilerplate is a set of basic shared styles, similar to bootstrap",
   "main": "fsn-boilerplate.html",
   "scripts": {
