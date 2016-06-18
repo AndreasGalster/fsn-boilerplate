@@ -1,0 +1,35 @@
+{
+  "name": "fsn-boilerplate",
+  "version": "0.1",
+  "description": "fsn-boilerplate is a set of basic shared styles, similar to bootstrap",
+  "main": "fsn-boilerplate.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasGalster/fsn-boilerplate.git"
+  },
+  "keywords": [
+    "web-components",
+    "polymer",
+    "emoji",
+    "input"
+  ],
+  "author": "Andreas Galster <andreas@pigments.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreasGalster/fsn-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AndreasGalster/fsn-boilerplate#readme",
+  "dependencies": {
+    "@polymer/polymer": "^1.2.5-npm-test.2",
+    "emojilib": "^2.0.2"
+  },
+  "devDependencies": {
+    "@polymer/iron-component-page": "^0.0.3",
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.0",
+    "webcomponents.js": "^0.7.20"
+  }
+}
