@@ -1,6 +1,6 @@
 {
-  "name": "fsn-boilerplate",
-  "version": "0.1",
+  "name": "@andreasgalster/fsn-boilerplate",
+  "version": "0.0.2",
   "description": "fsn-boilerplate is a set of basic shared styles, similar to bootstrap",
   "main": "fsn-boilerplate.html",
   "scripts": {
@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/AndreasGalster/fsn-boilerplate#readme",
   "dependencies": {
-    "@polymer/polymer": "^1.2.5-npm-test.2",
-    "emojilib": "^2.0.2"
+    "@polymer/polymer": "^1.2.5-npm-test.2"
   },
   "devDependencies": {
     "@polymer/iron-component-page": "^0.0.3",
