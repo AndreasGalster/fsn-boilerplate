@@ -50,13 +50,6 @@
 
     :root {
 
-
-/*
- * Media query sizes
- */
-
-
-
 			--grey: #f2f2f2;
 			--darkgrey: #494949;
 			--blue: #0c8aeb;
@@ -86,16 +79,56 @@
 			--480, 600, 840, 960, 1280, 1440, and 1600dp.
 			*/
 
-			--xs: 600px;
-			--sm: 960px;
-			--md: 1280px;
-			--lg: 1600px;
-			--xlg: 5000px;
+			--xs: 							600px;
+			--sm: 							960px;
+			--md: 							1280px;
+			--lg: 							1600px;
+			--xlg: 							5000px;
 
+			--grid-columns:			12;
+	    --grid-gutter: 			30px;
+
+		}
+
+			/*// Make the element grid-ready (applying everything but the width)
+			@mixin make-col-ready($size, $columns: $grid-columns, $gutter: $grid-gutter-width) {
+			  position: relative;
+			  min-height: 1px;
+			  padding-right: ($gutter / 2);
+			  padding-left:  ($gutter / 2);
+		    width: 100%;
 			}
 
+			@mixin make-col($size, $columns: $grid-columns, $gutter: $grid-gutter-width) {
+			    flex: 0 0 percentage($size / $columns);
+			    // Add a `max-width` to ensure content within each column does not blow out
+			    // the width of the column. Applies to IE10+ and Firefox. Chrome and Safari
+			    // do not appear to require this.
+			    max-width: percentage($size / $columns);
+			}*/
+
+
+
+
+
+
+
+	    /*$container-max-widths: (
+	      sm: 576px,
+	      md: 720px,
+	      lg: 940px,
+	      xl: 1140px
+	    );*/
+
+
+
+
+
+
+
+
 			/*--xs*/
-			@media screen and (max-width: 600px) {
+			@media screen and (max-width: var(--xs)) {
 				*[hide-xs] {
 					display: none;
 				}
