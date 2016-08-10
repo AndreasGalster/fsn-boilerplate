@@ -1,14 +1,14 @@
 {
-  "name": "@andreasgalster/fsn-boilerplate",
+  "name": "@andreasgalster/inkling",
   "version": "0.0.8",
-  "description": "fsn-boilerplate is a set of basic shared styles, similar to bootstrap",
-  "main": "fsn-boilerplate.html",
+  "description": "inkling is a set of basic shared styles, similar to bootstrap",
+  "main": "inkling.html",
   "scripts": {
     "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreasGalster/fsn-boilerplate.git"
+    "url": "git+https://github.com/AndreasGalster/inkling.git"
   },
   "keywords": [
     "web-components",
@@ -19,9 +19,9 @@
   "author": "Andreas Galster <andreas@pigments.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AndreasGalster/fsn-boilerplate/issues"
+    "url": "https://github.com/AndreasGalster/inkling/issues"
   },
-  "homepage": "https://github.com/AndreasGalster/fsn-boilerplate#readme",
+  "homepage": "https://github.com/AndreasGalster/inkling#readme",
   "dependencies": {
     "@polymer/polymer": "^1.2.5-npm-test.2"
   },
